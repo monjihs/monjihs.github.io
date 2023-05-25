@@ -565,7 +565,7 @@ section {
 .about .content .count-box i {
   display: block;
   font-size: 36px;
-  color: #0b91ff;
+  color: #ffb727;
   float: left;
   line-height: 0;
 }
@@ -1409,8 +1409,11 @@ img, svg {
 .badge {
   background-color: #0b91ff;
 }
-.rounded-pill {
-  border-radius: 50rem!important;
+.badge:hover {
+  background-color: transparent;
+  border: 1px solid #0b91ff;
+  color: #0b91ff;
+  transition: .5s;
 }
 .badge {
   display: inline-block;
